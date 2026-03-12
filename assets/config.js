@@ -1,5 +1,5 @@
 window.siteConfig = {
-  email: "todd.shaner@gmail.com",
+  email: "todd@toddshaner.com",
   linkedin: "https://www.linkedin.com/in/toddshaner/",
   github: "https://github.com/toddshaner",
   repos: {
