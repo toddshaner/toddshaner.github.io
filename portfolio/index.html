@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio | Todd Shaner</title>
+  <meta name="description" content="Portfolio of insurance AI projects and frameworks.">
+  <meta property="og:title" content="Portfolio | Todd Shaner">
+  <meta property="og:description" content="Portfolio of insurance AI projects and frameworks.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Todd Shaner">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script defer src="../assets/config.js"></script>
+  <script defer src="../assets/main.js"></script>
+</head>
+<body>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="../index.html">Todd Shaner</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <a  href="../index.html">Home</a>
+          <a  href="../about/">About</a>
+          <a class="active" href="../portfolio/">Portfolio</a>
+          <a  href="../insights/">Insights</a>
+          <a  href="../contact/">Contact</a>
+          <a class="nav-cta github-link" href="#" target="_blank" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+    </header>
+    
+<main>
+  <section class="hero">
+    <div class="container split">
+      <div>
+        <div class="eyebrow">Portfolio</div>
+        <h1>Projects built around real insurance workflows.</h1>
+        <p class="lead">The portfolio is intentionally narrow. Each project is designed to connect frontier model capability to a concrete insurance task, with clear boundaries for human review and governance.</p>
+      </div>
+      <aside class="panel tight">
+        <div class="panel-title">How I approach builds</div>
+        <div class="metrics">
+          <div class="metric"><strong>1. Choose a narrow workflow</strong><span class="muted">Start with a task that matters operationally.</span></div>
+          <div class="metric"><strong>2. Design for review</strong><span class="muted">Separate draft assistance from final judgment.</span></div>
+          <div class="metric"><strong>3. Evaluate usefulness</strong><span class="muted">Measure whether the workflow is actually better, not just novel.</span></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid three">
+        <article class="card">
+          <div class="badge-row">
+            <span class="badge accent">Project 01</span>
+            <span class="badge success">High signal</span>
+          </div>
+          <h3>Insurance Document Assistant</h3>
+          <p>AI-assisted review of insurance-related documents with retrieval, structured question answering, source references, and explicit caveats.</p>
+          <ul>
+            <li>Mock policy and submission documents</li>
+            <li>Retrieval and citation workflow</li>
+            <li>Human review expectations</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="button" href="../projects/insurance-document-assistant/">View project</a>
+            <a class="button secondary" data-repo="documentAssistant" href="#">GitHub repo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="badge-row">
+            <span class="badge accent">Project 02</span>
+            <span class="badge">Brokerage ops</span>
+          </div>
+          <h3>Broker Workflow Copilot</h3>
+          <p>Draft-generation support for account briefs, renewal preparation notes, and meeting prep materials built from mock client inputs.</p>
+          <ul>
+            <li>Repeatable account brief template</li>
+            <li>Missing information detection</li>
+            <li>Controlled review before external use</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="button" href="../projects/broker-workflow-copilot/">View project</a>
+            <a class="button secondary" data-repo="brokerWorkflowCopilot" href="#">GitHub repo</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="badge-row">
+            <span class="badge accent">Project 03</span>
+            <span class="badge warning">Governance</span>
+          </div>
+          <h3>Insurance AI Governance Framework</h3>
+          <p>A markdown-first framework for classifying insurance AI use cases by risk, defining review expectations, and designing controls for deployment.</p>
+          <ul>
+            <li>Risk-tier matrix</li>
+            <li>Human-review model</li>
+            <li>Controls and deployment questions</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="button" href="../projects/insurance-ai-governance-framework/">View project</a>
+            <a class="button secondary" data-repo="governanceFramework" href="#">GitHub repo</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div class="list-panel">
+        <h2>Additional work in development</h2>
+        <ul class="clean-list">
+          <li><strong>Synthetic insurance data pack</strong><br><span class="muted">Mock submissions, policy excerpts, and loss information for portfolio-safe demos.</span></li>
+          <li><strong>Workflow evaluation templates</strong><br><span class="muted">Basic evaluation criteria for usefulness, completeness, and review quality.</span></li>
+          <li><strong>Architecture diagrams</strong><br><span class="muted">Visual summaries of each prototype's data flow, review gates, and control points.</span></li>
+        </ul>
+      </div>
+      <div class="callout">
+        <strong>Portfolio rule</strong>
+        <p class="spacer-top">No confidential or real client data. All demos use mock or synthetic material.</p>
+        <p class="muted">For insurance use cases, credibility depends on both relevance and restraint. That means good workflow design, clear caveats, and clean repository hygiene.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">Todd Shaner</div>
+          <p>Insurance operator focused on practical AI adoption in regulated environments.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigate</div>
+          <ul class="footer-links">
+            <li><a href="../about/">About</a></li>
+            <li><a href="../portfolio/">Portfolio</a></li>
+            <li><a href="../insights/">Insights</a></li>
+            <li><a href="../contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Elsewhere</div>
+          <ul class="footer-links">
+            <li><a class="linkedin-link" href="#">LinkedIn</a></li>
+            <li><a class="github-link" href="#">GitHub</a></li>
+            <li><a class="email-link" href="#">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Todd Shaner</span>
+        
+      </div>
+    </footer>
+    
+</body>
+</html>

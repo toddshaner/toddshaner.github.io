@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsible AI in Insurance Requires More Than a Policy Statement | Todd Shaner</title>
+  <meta name="description" content="Insurance firms need risk tiers, review models, logging expectations, and escalation paths—not governance theater.">
+  <meta property="og:title" content="Responsible AI in Insurance Requires More Than a Policy Statement | Todd Shaner">
+  <meta property="og:description" content="Insurance firms need risk tiers, review models, logging expectations, and escalation paths—not governance theater.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Todd Shaner">
+  <link rel="stylesheet" href="../../assets/styles.css">
+  <script defer src="../../assets/config.js"></script>
+  <script defer src="../../assets/main.js"></script>
+</head>
+<body>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="../../index.html">Todd Shaner</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <a  href="../../index.html">Home</a>
+          <a  href="../../about/">About</a>
+          <a  href="../../portfolio/">Portfolio</a>
+          <a class="active" href="../../insights/">Insights</a>
+          <a  href="../../contact/">Contact</a>
+          <a class="nav-cta github-link" href="#" target="_blank" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+    </header>
+    
+<main>
+  <section class="hero">
+    <div class="container article">
+      <div class="eyebrow">Essay</div>
+      <h1>Responsible AI in Insurance Requires More Than a Policy Statement</h1>
+      <p class="lead">Insurance firms need risk tiers, review models, logging expectations, and escalation paths—not governance theater.</p>
+      <div class="hero-actions">
+        <a class="button secondary" href="../../insights/">Back to insights</a>
+        <a class="button github-link" href="#" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container article">
+      <p>Many insurance firms now have an AI policy. Far fewer have a real governance model.</p>
+<p>That gap matters because policy language is usually abstract while deployment decisions are painfully specific. The hard questions are not "Do we believe in responsible AI?" They are questions like: Which use cases are low risk? Which ones require human review? What needs logging? What happens when the model is uncertain? Who owns the escalation path when a workflow fails?</p>
+<p>If those questions do not have operational answers, governance remains ceremonial.</p>
+<p>Insurance has particular reasons to care. It is a regulated industry. It handles sensitive information. It supports decisions and communications that can influence client outcomes, claims handling, underwriting interpretation, and risk transfer. Even when an AI tool sits one layer away from the formal decision, it can still shape judgment in ways that matter.</p>
+<p>That is why a useful governance model starts with use cases, not models.</p>
+<p>A better approach is to classify workflows by risk tier. A low-risk use case might be internal meeting note cleanup or basic summarization. A moderate-risk use case might be renewal prep support or document extraction that feeds a human-reviewed process. A higher-risk use case might be anything that materially shapes coverage interpretation, claims guidance, or external advice. Some use cases should simply be restricted from automation.</p>
+<p>Once the use case is classified, the operating requirements become clearer. What level of review is required? Does the user need to see sources? Is the output allowed to be client-facing? What data may be used? What logging must exist? What failure modes matter most?</p>
+<p>This sounds procedural, but it is strategic. Good governance lets organizations move faster where the risk is low and more carefully where the downside is material. Without that structure, firms either freeze useful experimentation or adopt tools with weak controls.</p>
+<p>There are four elements I think most insurance teams need.</p>
+<p>First, explicit human accountability. Someone must own the outcome, not just the tool.</p>
+<p>Second, traceability. If the output influenced an action, the inputs, model behavior, and review path should be reconstructable at a practical level.</p>
+<p>Third, role clarity. Users need to know whether the system is summarizing, drafting, flagging, or recommending. Ambiguity here is dangerous because people overtrust fluent systems.</p>
+<p>Fourth, escalation. A governance model that does not specify what happens when the workflow fails is incomplete.</p>
+<p>The mistake many organizations make is to treat governance as a separate compliance layer added after the use case is built. In practice, governance should shape the workflow itself. It should define how the task is bounded, how the human review step works, and where the system is not allowed to operate.</p>
+<p>For insurance leaders, the implication is direct: if the controls are vague, the deployment is not ready. Responsible AI requires more than a policy statement because real credibility comes from operating discipline, not slogans.</p>
+    </div>
+  </section>
+</main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">Todd Shaner</div>
+          <p>Insurance operator focused on practical AI adoption in regulated environments.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigate</div>
+          <ul class="footer-links">
+            <li><a href="../../about/">About</a></li>
+            <li><a href="../../portfolio/">Portfolio</a></li>
+            <li><a href="../../insights/">Insights</a></li>
+            <li><a href="../../contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Elsewhere</div>
+          <ul class="footer-links">
+            <li><a class="linkedin-link" href="#">LinkedIn</a></li>
+            <li><a class="github-link" href="#">GitHub</a></li>
+            <li><a class="email-link" href="#">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Todd Shaner</span>
+        
+      </div>
+    </footer>
+    
+</body>
+</html>

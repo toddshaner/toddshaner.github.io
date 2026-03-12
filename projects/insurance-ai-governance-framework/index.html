@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Insurance AI Governance Framework | Todd Shaner</title>
+  <meta name="description" content="Framework for insurance AI risk tiers and controls.">
+  <meta property="og:title" content="Insurance AI Governance Framework | Todd Shaner">
+  <meta property="og:description" content="Framework for insurance AI risk tiers and controls.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Todd Shaner">
+  <link rel="stylesheet" href="../../assets/styles.css">
+  <script defer src="../../assets/config.js"></script>
+  <script defer src="../../assets/main.js"></script>
+</head>
+<body>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="../../index.html">Todd Shaner</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <a  href="../../index.html">Home</a>
+          <a  href="../../about/">About</a>
+          <a class="active" href="../../portfolio/">Portfolio</a>
+          <a  href="../../insights/">Insights</a>
+          <a  href="../../contact/">Contact</a>
+          <a class="nav-cta github-link" href="#" target="_blank" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+    </header>
+    
+<main>
+  <section class="hero">
+    <div class="container split">
+      <div>
+        <div class="eyebrow">Project 03</div>
+        <h1>Insurance AI Governance Framework</h1>
+        <p class="lead">A practical framework for classifying insurance AI use cases by risk, defining review expectations, and designing governance controls for deployment in regulated environments.</p>
+        <div class="hero-actions">
+          <a class="button" data-repo="governanceFramework" href="#">View repo</a>
+          <a class="button secondary" href="../../portfolio/">Back to portfolio</a>
+        </div>
+      </div>
+      <aside class="panel tight">
+        <div class="panel-title">Signal</div>
+        <div class="metrics">
+          <div class="metric"><strong>Why third</strong><span class="muted">High strategic value and directly relevant to enterprise AI conversations.</span></div>
+          <div class="metric"><strong>Output type</strong><span class="muted">Markdown-first framework, matrix, checklist, and examples.</span></div>
+          <div class="metric"><strong>Audience</strong><span class="muted">Insurance operators, product teams, risk, compliance, and AI platform leaders.</span></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container article">
+      <h2>Why this matters</h2>
+      <p>Insurance organizations are under pressure to adopt AI, but many teams still lack clear internal rules for what kinds of use cases are low risk, what requires review, and what should not be automated. This repository is intended to make those decisions more concrete.</p>
+
+      <h2>Objective</h2>
+      <p>Create a working governance framework that insurance leaders, product teams, and operators can use to evaluate AI use cases before deployment.</p>
+
+      <h2>Core framework questions</h2>
+      <ul>
+        <li>What is the use case?</li>
+        <li>What business function does it affect?</li>
+        <li>Could the output influence a regulated decision or client outcome?</li>
+        <li>What level of human review is required?</li>
+        <li>What logging, audit, and escalation expectations should exist?</li>
+        <li>What failure modes are most important?</li>
+      </ul>
+
+      <h2>Example risk tiers</h2>
+      <ul>
+        <li><strong>Tier 1 — Low risk support tasks:</strong> internal summarization, note cleanup, meeting recap drafts.</li>
+        <li><strong>Tier 2 — Moderate risk workflow support:</strong> renewal prep drafts, document extraction, internal research support.</li>
+        <li><strong>Tier 3 — High risk decision-adjacent support:</strong> outputs that materially influence underwriting interpretation, claims handling, or client advice.</li>
+        <li><strong>Tier 4 — Restricted / not appropriate for automation:</strong> unsupervised decisions with regulatory, legal, or client-impact implications.</li>
+      </ul>
+
+      <h2>Governance principles</h2>
+      <ul>
+        <li>Use case before technology</li>
+        <li>Explicit human accountability</li>
+        <li>Traceability and logging</li>
+        <li>Privacy and data minimization</li>
+        <li>Documented limitations</li>
+        <li>Escalation paths for failure or ambiguity</li>
+      </ul>
+
+      <h2>Next steps</h2>
+      <p>Draft the full risk matrix, add example review workflows, map common brokerage and carrier use cases, and create a one-page governance summary for executives.</p>
+    </div>
+  </section>
+</main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">Todd Shaner</div>
+          <p>Insurance operator focused on practical AI adoption in regulated environments.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigate</div>
+          <ul class="footer-links">
+            <li><a href="../../about/">About</a></li>
+            <li><a href="../../portfolio/">Portfolio</a></li>
+            <li><a href="../../insights/">Insights</a></li>
+            <li><a href="../../contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Elsewhere</div>
+          <ul class="footer-links">
+            <li><a class="linkedin-link" href="#">LinkedIn</a></li>
+            <li><a class="github-link" href="#">GitHub</a></li>
+            <li><a class="email-link" href="#">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Todd Shaner</span>
+        
+      </div>
+    </footer>
+    
+</body>
+</html>

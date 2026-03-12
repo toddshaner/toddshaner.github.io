@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Broker Workflow Copilot | Todd Shaner</title>
+  <meta name="description" content="Prototype for AI-assisted brokerage workflow support.">
+  <meta property="og:title" content="Broker Workflow Copilot | Todd Shaner">
+  <meta property="og:description" content="Prototype for AI-assisted brokerage workflow support.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Todd Shaner">
+  <link rel="stylesheet" href="../../assets/styles.css">
+  <script defer src="../../assets/config.js"></script>
+  <script defer src="../../assets/main.js"></script>
+</head>
+<body>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="../../index.html">Todd Shaner</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <a  href="../../index.html">Home</a>
+          <a  href="../../about/">About</a>
+          <a class="active" href="../../portfolio/">Portfolio</a>
+          <a  href="../../insights/">Insights</a>
+          <a  href="../../contact/">Contact</a>
+          <a class="nav-cta github-link" href="#" target="_blank" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+    </header>
+    
+<main>
+  <section class="hero">
+    <div class="container split">
+      <div>
+        <div class="eyebrow">Project 02</div>
+        <h1>Broker Workflow Copilot</h1>
+        <p class="lead">A prototype for helping insurance producers and account teams generate structured briefs, renewal preparation notes, and meeting prep materials from mock client information.</p>
+        <div class="hero-actions">
+          <a class="button" data-repo="brokerWorkflowCopilot" href="#">View repo</a>
+          <a class="button secondary" href="../../portfolio/">Back to portfolio</a>
+        </div>
+      </div>
+      <aside class="panel tight">
+        <div class="panel-title">Signal</div>
+        <div class="metrics">
+          <div class="metric"><strong>Why second</strong><span class="muted">Most directly aligned to brokerage credibility and real operating experience.</span></div>
+          <div class="metric"><strong>Workflow type</strong><span class="muted">Draft-generation support for internal preparation and coordination.</span></div>
+          <div class="metric"><strong>Boundary</strong><span class="muted">Draft assistance only. Final advice remains human-owned.</span></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container article">
+      <h2>Why this matters</h2>
+      <p>A large share of brokerage work depends on collecting scattered information, synthesizing it quickly, and turning it into usable preparation for client conversations and internal execution. This project explores where AI can reduce prep time while preserving human judgment.</p>
+
+      <h2>Core use case</h2>
+      <p>Given a mock client profile and supporting materials, the copilot should help produce an account brief, renewal preparation notes, meeting prep prompts, and follow-up task suggestions.</p>
+
+      <h2>MVP scope</h2>
+      <ul>
+        <li>Take a narrow set of mock inputs</li>
+        <li>Generate a repeatable account brief template</li>
+        <li>Identify missing information</li>
+        <li>Suggest questions for renewal or client discussion</li>
+        <li>Preserve a visible human-review step before use</li>
+      </ul>
+
+      <h2>Example inputs</h2>
+      <ul>
+        <li>Mock company profile</li>
+        <li>Mock lines of coverage</li>
+        <li>Prior renewal notes</li>
+        <li>Mock claims summary</li>
+        <li>Internal meeting notes</li>
+      </ul>
+
+      <h2>Example outputs</h2>
+      <ul>
+        <li>Executive account summary</li>
+        <li>Exposure overview</li>
+        <li>Renewal timeline checklist</li>
+        <li>Open issues and missing data list</li>
+        <li>Discussion questions for producer or account manager</li>
+      </ul>
+
+      <h2>Human oversight and governance</h2>
+      <p>This tool drafts; it does not replace producer judgment. Client-facing recommendations remain human-owned. The workflow should clearly separate generated draft content from approved final material and use mock or synthetic data only.</p>
+
+      <h2>Next steps</h2>
+      <p>Add a UI for input selection and brief generation, create reusable prompt templates, define evaluation criteria for usefulness and completeness, and support multiple output formats.</p>
+    </div>
+  </section>
+</main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">Todd Shaner</div>
+          <p>Insurance operator focused on practical AI adoption in regulated environments.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Navigate</div>
+          <ul class="footer-links">
+            <li><a href="../../about/">About</a></li>
+            <li><a href="../../portfolio/">Portfolio</a></li>
+            <li><a href="../../insights/">Insights</a></li>
+            <li><a href="../../contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Elsewhere</div>
+          <ul class="footer-links">
+            <li><a class="linkedin-link" href="#">LinkedIn</a></li>
+            <li><a class="github-link" href="#">GitHub</a></li>
+            <li><a class="email-link" href="#">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Todd Shaner</span>
+        
+      </div>
+    </footer>
+    
+</body>
+</html>
